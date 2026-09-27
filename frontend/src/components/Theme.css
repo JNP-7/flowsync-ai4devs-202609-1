@@ -1,0 +1,22 @@
+.skip-link {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  transform: translateY(-200%);
+  background: var(--org-primary);
+  color: var(--org-on-primary);
+  padding: 8px 16px;
+  border-radius: 4px;
+  z-index: 100;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .skip-link {
+    transition: transform 0.15s ease;
+  }
+}

@@ -1,0 +1,32 @@
+.site-footer {
+  background: var(--org-primary);
+  color: var(--org-on-primary);
+  margin-top: auto;
+}
+
+.site-footer__bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 20px;
+  max-width: 1126px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.site-footer__logo {
+  width: 28px;
+  height: 28px;
+}
+
+.site-footer__link {
+  color: var(--org-on-primary);
+  text-decoration: underline;
+}
+
+.site-footer__link:focus-visible {
+  outline: 2px solid var(--org-on-primary);
+  outline-offset: 2px;
+}

@@ -15,6 +15,14 @@
   --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 
+  /* Paleta institucional (FLOW-5) — usada por Theme/Header/Nav/Footer */
+  --org-primary: #224fa8;
+  --org-accent: #598bec;
+  --org-subtle: #d1e5ef;
+  --org-text: #212529;
+  --org-on-primary: #ffffff;
+  --org-border: #e5e7eb;
+
   font: 18px/145% var(--sans);
   letter-spacing: 0.18px;
   color-scheme: light dark;
