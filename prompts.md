@@ -73,7 +73,7 @@ Si, pero revisa el formato, parece que las 2 últimas columnas se han mezclado
 "en la lista, un responsable sin nombre llega con nombre nulo e iniciales" que parte falla en este test
 ```
 
-**Qué salió:** funcionó a la primera: identificó la aserción concreta que falla (`notProperty(..., 'email')`).
+**Qué salió:** funcionó a la primera: identificó la aserción concreta que falla (`notProperty(..., 'email')`) y explicó que el test falla por esa aserción extra (la sobre el email) y no por lo que pide su scenario («nombre nulo e iniciales», que sí se cumple); la había añadido yo y mezclaba otro scenario, así que ofreció quitarla, y de ahí el Prompt 6.
 
 ## Prompt 6
 
